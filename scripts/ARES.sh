@@ -16,7 +16,7 @@ python -u exp/train.py \
   --valid_file mtaf_valid \
   --feature MTAF \
   --seq_len 8000 \
-  --train_epochs 300 \
+  --train_epochs 30 \
   --batch_size 512 \
   --learning_rate 2e-3 \
   --optimizer AdamW \

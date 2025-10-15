@@ -145,3 +145,7 @@ If you have any questions or suggestions, feel free to contact:
 ## Acknowledgements
 
 We would like to thank all the authors of the referenced papers.
+
+
+## my adding
+修改了Homles.sh的4处cuda:6 => cuda:0；

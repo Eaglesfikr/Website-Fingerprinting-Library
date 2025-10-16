@@ -148,4 +148,5 @@ We would like to thank all the authors of the referenced papers.
 
 
 ## my adding
-修改了Homles.sh的4处cuda:6 => cuda:0；
+1.修改了Homles.sh的4处cuda:6 => cuda:0；
+2.CW数据划分后直接运行Holmes是不行的，要进行使用一个代码文件python exp/dataset_process/gen_early_traffic.py --dataset CW划分出早期流量，Holmes.sh里面没有把它写进去，要先运行该命令后再进行bash脚本

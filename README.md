@@ -173,4 +173,6 @@ We would like to thank all the authors of the referenced papers.
 - 数据保持进度：
   - [x] 模型参数checkpoint
   - [ ] datasets数据处理文件
+    - [x] tam_test_p*
+    - [ ] taf_test_p*
 

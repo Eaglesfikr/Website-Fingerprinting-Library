@@ -148,6 +148,22 @@ We would like to thank all the authors of the referenced papers.
 
 
 ## my adding
-- 记得要扩展磁盘空间到100GB
+- 记得要扩展磁盘空间到100GB,运行的GPU显存一般在2GB
+
 - 修改了Homles.sh的4处cuda:6 => cuda:0；
-- CW数据划分后直接运行Holmes是不行的，要进行使用一个代码文件python exp/dataset_process/gen_early_traffic.py --dataset CW划分出早期流量，Holmes.sh里面没有把它写进去，要先运行该命令后再进行bash脚本
+
+- CW数据划分后直接运行Holmes是不行的，要进行使用一个代码文件
+
+  ```sh
+  python exp/dataset_process/gen_early_traffic.py --dataset CW
+  ```
+
+  划分出早期流量，Holmes.sh里面没有把它写进去，要先运行该命令后再进行bash脚本
+
+- 提取日志文件的sh脚本命令：
+
+  ```sh
+  grep "Accuracy" target.log
+  ```
+
+- 加上了results文件夹和各个画图plt的python文件

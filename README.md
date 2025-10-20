@@ -169,3 +169,8 @@ We would like to thank all the authors of the referenced papers.
 - 加上了results文件夹和各个画图plt的python文件
 
 - 为了与Holmes比较早期各个阶段的对比，添加文件RF_test.sh,可以在运行RF.sh完成后运行
+
+- 数据保持进度：
+  - [x] 模型参数checkpoint
+  - [ ] datasets数据处理文件
+

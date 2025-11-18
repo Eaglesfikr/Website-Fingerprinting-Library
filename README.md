@@ -174,5 +174,10 @@ We would like to thank all the authors of the referenced papers.
   - [x] 模型参数checkpoint
   - [ ] datasets数据处理文件
     - [x] tam_test_p*
-    - [ ] taf_test_p*
-
+    - [x] taf_test_p*
+    - [x] test_p*
+    - [ ] aug_train.npz
+    - [ ] taf_aug_train.npz
+    - [x] 其他
+    
+    
